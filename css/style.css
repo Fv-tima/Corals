@@ -9022,12 +9022,15 @@ Preloader
 
 .preloader:after {
   position: absolute;
-  left: 40%;
-  top: 40%;
+  left: 42%;
+  top: 30%;
   height: 150px;
   width: 150px;
-  margin-left: -25px;
-  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -25px;
+  margin-top: -25px; */
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../images/spinner.gif);
