@@ -1980,10 +1980,12 @@ Buttons Styles
   background-color: #f9ab00;
   font-size: 15px;
   line-height: 20px;
-  border-radius: 8px;
+  border-radius: 50pxpx;
   font-weight: 400;
   padding: 18px 35px 15px 35px;
 }
+
+
 
 .btn-style-two:hover {
   color: #202124;
@@ -6207,6 +6209,13 @@ Job Categories
   flex-direction: column;
 }
 
+@media (max-width: 767px) {
+.search{
+background: #ffffff;
+padding: 20px;
+}
+}
+
 .category-block .icon {
   position: absolute;
   left: 0;
@@ -6494,9 +6503,16 @@ Job Section
 
 .job-block .content {
   position: relative;
-  padding-left: 68px;
+  padding-left: 28px;
   min-height: 51px;
 }
+
+.job-block .content p, .job-block .content span{
+  font-weight: 400;
+  font-size: 14px;
+  color: #20212480;
+}
+
 
 .job-block .company-logo {
   position: absolute;
@@ -6593,6 +6609,16 @@ Job Section
 .job-other-info li.time {
   background: rgba(25, 103, 210, 0.15);
   color: #0b0198;
+}
+
+
+@media (max-width: 767px) {
+  .job-other-info li{
+    font-size: 10.25px;
+  }
+  .d-1{
+    display: none;
+  }
 }
 
 .job-other-info li.green,
@@ -7371,6 +7397,10 @@ Job Detail Section
   margin-bottom: 10px;
 }
 
+@media (max-width: 767px) {
+  
+}
+
 .job-block-seven h4 a {
   color: #202124;
   transition: all 300ms ease;
@@ -7491,6 +7521,15 @@ Job Detail Section
   color: #202124;
   margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  .job-detail h4{
+    font-size: 17.86px;
+  }
+
+}
+
+
 
 .job-detail p {
   position: relative;
@@ -11277,6 +11316,13 @@ Candidates Section
   margin-bottom: 5px;
 }
 
+
+@media (max-width: 767px) {
+  .candidate-block .name{
+    font-size: 14.48px;
+  }
+}
+
 .candidate-block .designation {
   display: block;
   font-size: 14px;
@@ -11743,19 +11789,29 @@ Candidates Section Two
 
 .candidate-block-four .job-info li {
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
-  color: #696969;
+  color: #20212480;
   font-weight: 400;
   padding-left: 25px;
   margin: 0 15px 5px;
+}
+
+
+@media (max-width: 767px) {
+  .candidate-block-four .job-info li{
+    font-size: 12.87px;
+  }
+  .candidate-block-four .job-info li .icon, .candidate-block-four .post-tags li{
+    font-size: 11.26px;
+  }
 }
 
 .candidate-block-four .job-info li .icon {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
   color: #696969;
 }
@@ -11779,14 +11835,14 @@ Candidates Section Two
   border-radius: 30px;
   font-size: 14px;
   line-height: 20px;
-  color: #696969;
+  color: #20212480;
   padding: 5px 20px;
   border-radius: 20px;
   margin: 0 5px 10px;
 }
 
 .candidate-block-four .post-tags li a {
-  color: #696969;
+  color: #20212480;
 }
 
 .candidate-block-four .post-tags li.colored {
@@ -12030,7 +12086,6 @@ Candidate Detail Section
 .candidate-block-six .post-tags {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -12138,6 +12193,32 @@ Candidate Detail Section
   .default-form
   .form-group {
   margin-bottom: 20px;
+}
+
+.display-1{
+visibility: hidden;
+}
+
+.display-2{
+  visibility: visible;
+}
+.sample{
+  width: 65%;
+}
+
+
+@media (max-width: 767px) {
+  .display-2{
+    visibility: hidden;
+    }
+    
+    .display-1{
+      visibility: visible;
+      margin-bottom: 15px;
+    }
+    .sample{
+      width: 100%;
+    }
 }
 
 /***
@@ -13088,12 +13169,28 @@ Listing Pagination
 .ls-pagination li {
   position: relative;
   margin: 0 5px;
-  font-size: 14px;
+  font-size: 18px;
   color: #696969;
   line-height: 45px;
   min-width: 45px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
+}
+
+.important{
+  font-size: 46px;
+}
+
+@media (max-width: 767px) {
+  .ls-pagination li.prev, .ls-pagination li .next{
+    font-size: 11.15px;
+  }
+  .ls-pagination li a{
+    font-size: 12.39px;
+  }
+  .important{
+    font-size: 26px;
+  }
 }
 
 .ls-pagination li a {
@@ -15957,6 +16054,7 @@ Product Tabs
   color: white;
 }
 
+
 .banner-section.-type-11 .title-box .text {
   color: white;
 }
@@ -18430,6 +18528,13 @@ Product Tabs
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
+}
+
+
+@media (max-width: 767px) {
+  .banner-section-four .title-box h3 {
+  font-size: 24px;
+  }
 }
 
 @media (max-width: 991px) {
