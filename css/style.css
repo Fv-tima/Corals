@@ -1532,10 +1532,16 @@ About Section Three
 
 .about-section-three .text-box h4 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 46px;
   line-height: 31px;
   color: #202124;
   margin-bottom: 31px;
+}
+
+@media (max-width: 768px) {
+  .about-section-three .text-box h4 {
+    font-size: 26px ;
+  }
 }
 
 .about-section-three .text-box p {
@@ -6125,6 +6131,15 @@ Mobile Header
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .btn-search{
+    border: 8px solid #ffffff;
+  }
+  .get{
+    flex-direction: column;
+  }
+}
+
 .mobile-header .search-box {
   margin: 0;
 }
@@ -6209,12 +6224,6 @@ Job Categories
   flex-direction: column;
 }
 
-@media (max-width: 767px) {
-.search{
-background: #ffffff;
-padding: 20px;
-}
-}
 
 .category-block .icon {
   position: absolute;
@@ -11177,6 +11186,11 @@ App Section
   line-height: 54px;
 }
 
+@media (max-width: 768px) {
+  .app-section .sec-title h2{
+    font-size: 26px ;
+  }
+}
 .app-section .download-btn {
   position: relative;
   display: flex;
@@ -13177,9 +13191,6 @@ Listing Pagination
   text-align: center;
 }
 
-.important{
-  font-size: 46px;
-}
 
 @media (max-width: 767px) {
   .ls-pagination li.prev, .ls-pagination li .next{
@@ -13187,10 +13198,7 @@ Listing Pagination
   }
   .ls-pagination li a{
     font-size: 12.39px;
-  }
-  .important{
-    font-size: 26px;
-  }
+  } 
 }
 
 .ls-pagination li a {
@@ -14053,7 +14061,7 @@ steps Section
 ***/
 .steps-section {
   position: relative;
-  padding: 100px 0 50px;
+  padding: 100px 0 50px ;
 }
 
 .steps-section .image-column {
@@ -14118,9 +14126,15 @@ steps Section
 
 .steps-section .content-column .sec-title h2 {
   font-weight: 500;
-  font-size: 26px;
+  font-size: 46px;
   line-height: 38px;
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .steps-section .content-column .sec-title h2{
+    font-size: 26px ;
+  }
 }
 
 .steps-list {
@@ -15962,11 +15976,7 @@ Product Tabs
   line-height: 1.2 !important;
 }
 
-@media (max-width: 991px) {
-  .sec-title.-type-2 h2 {
-    font-size: 32px !important;
-  }
-}
+
 
 .sec-title.-type-2 .text {
   margin-top: 30px;
