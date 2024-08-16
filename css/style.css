@@ -9066,17 +9066,16 @@ Preloader
   height: 100%;
   z-index: 999999;
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .preloader:after {
   position: absolute;
-  left: 42%;
-  top: 30%;
-  height: 150px;
+ height: 150px;
   width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   /* margin-left: -25px;
   margin-top: -25px; */
   background-position: center center;
