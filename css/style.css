@@ -10617,7 +10617,7 @@ Testimonial Section
 @media (max-width: 768px) {
   .testimonial-section .con{
     max-width: 300px;
-    min-height: 204px;
+    min-height: 234px;
     gap: 4px;
     margin: 0px 10px;
     
