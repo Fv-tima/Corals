@@ -1644,6 +1644,16 @@ Ads Section
   padding: 10px 0 10px;
 }
 
+.ads-section .btn{
+  padding: 18px 35px;
+}
+
+@media (max-width: 768px) {
+  .ads-section .btn{
+    padding: 12px 20px;
+  } 
+}
+
 .advrtise-block {
   position: relative;
   margin-bottom: 30px;
@@ -6137,6 +6147,7 @@ Mobile Header
   }
   .get{
     flex-direction: column;
+    row-gap: 20px;
   }
 }
 
@@ -8875,7 +8886,6 @@ Page Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/icons/bg-4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9647,12 +9657,12 @@ Section Title
   align-items: flex-end;
 }
 
-.sec-title {
+.sec-title, .sec-title-2, .sec-title-3 {
   position: relative;
   margin-bottom: 50px;
 }
 
-.sec-title .sub-title {
+.sec-title .sub-title, .sec-title-2, .sec-title-3 {
   position: relative;
   display: block;
   font-size: 18px;
@@ -9671,7 +9681,25 @@ Section Title
   font-weight: 500;
 }
 
-.sec-title .text {
+.sec-title-2 h2{
+  position: relative;
+  display: block;
+  font-size:46px;
+  line-height: 36px;
+  color: #202124;
+ 
+
+}
+
+.sec-title-3 h3, .sec-title-3 h4{
+  position: relative;
+  display: block;
+  font-size: 36px;
+  line-height: 38.4px;
+  color: #363636;
+}
+
+.sec-title .text, .sec-title-2 .text, .sec-title-3 .text {
   position: relative;
   margin-top: 15px;
   font-size: 17px;
@@ -9682,6 +9710,11 @@ Section Title
 .sec-title.light .text {
   color: #ffffff;
 }
+
+.sec-title-2.light h2 {
+  color: #ffffff;
+}
+
 
 .sec-title-outer .link {
   position: relative;
@@ -10575,6 +10608,29 @@ Testimonial Section
   padding: 0;
 }
 
+.testimonial-section .con{
+  width: 390px;
+  height: 204px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .testimonial-section .con{
+    max-width: 300px;
+    min-height: 204px;
+    gap: 4px;
+    margin: 0px 10px;
+    
+    
+  }
+
+  .testimonial-section .outer-con{
+    flex-direction: column;
+  }
+  
+}
+
+
 /***
 
 ====================================================================
@@ -11161,6 +11217,8 @@ App Section
   position: relative;
   padding-top: 55px;
   margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .app-section .content-column {
@@ -11736,6 +11794,7 @@ Candidates Section Two
   text-align: center;
   transition: all 300ms ease;
   border: 1px solid #ecedf2;
+  min-height: 525px;
 }
 
 .candidate-block-four .inner-box:hover {
@@ -11752,6 +11811,7 @@ Candidates Section Two
   flex-direction: column;
   align-items: flex-start;
 }
+
 
 .candidate-block-four .thumb {
   position: relative;
@@ -11814,9 +11874,17 @@ Candidates Section Two
 @media (max-width: 767px) {
   .candidate-block-four .job-info li{
     font-size: 12.87px;
+    margin: 0 ;
   }
   .candidate-block-four .job-info li .icon, .candidate-block-four .post-tags li{
     font-size: 11.26px;
+  }
+  .candidate-block-four .job-other-info {
+    padding: 10px 1px 10px 2px;
+    width: 100%;
+  }
+  .candidate-block-four .inner-box {
+    padding:50px 5px;
   }
 }
 
@@ -12334,7 +12402,10 @@ Call To Action Two
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #0b0198;
+  background-image: url("/images/Section2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   content: "";
   opacity: 0.85;
 }
@@ -13874,18 +13945,17 @@ Pricing Section
 .pricing-table .title {
   display: block;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   color: #0b0198;
   margin-bottom: 10px;
 }
 
 .pricing-table .price {
-  font-family: Sofia Pro;
   position: relative;
   display: flex;
   align-items: flex-end;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 41px;
   color: #202124;
   font-weight: 500;
@@ -13901,6 +13971,7 @@ Pricing Section
   font-weight: 400;
   bottom: 7px;
   margin-left: 7px;
+  font-weight: 600;
 }
 
 .pricing-table .table-content {
@@ -13919,7 +13990,6 @@ Pricing Section
   color: #444;
   font-weight: 400;
   margin-bottom: 20px;
-  padding-left: 30px;
   /*        color: #696969;
 */
 }
@@ -14126,13 +14196,14 @@ steps Section
 .steps-section .content-column .sec-title h2 {
   font-weight: 500;
   font-size: 46px;
-  line-height: 38px;
+  line-height: 54px;
   color: #000000;
 }
 
 @media (max-width: 768px) {
   .steps-section .content-column .sec-title h2{
     font-size: 26px ;
+    line-height: 40px;
   }
 }
 
@@ -19088,7 +19159,6 @@ Product Tabs
 }
 
 .subscribe-section-two.-type-5 .sec-title h2 {
-  font-family: Sofia Pro;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
@@ -19097,7 +19167,6 @@ Product Tabs
 
 .subscribe-section-two.-type-5 .sec-title .text {
   margin-top: 16px;
-  font-family: Sofia Pro;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
@@ -19523,10 +19592,7 @@ Banner Section Four
 ***/
 .banner-section-four {
   position: relative;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
+  display: block;;
   height: 100vh;
   min-height: 700px;
   text-align: center;
@@ -19535,6 +19601,13 @@ Banner Section Four
   align-items: center;
   flex-direction: column;
   padding: 120px 0;
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .banner-section-four{
+    margin-top: 0px;
+  }
 }
 
 .banner-section-four .title-box {
