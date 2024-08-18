@@ -706,7 +706,7 @@
     }
 
     .main-header .logo img {
-        max-width: none;
+        width: 100%;
         height: 40px;
     }
 
@@ -737,6 +737,8 @@
         visibility: hidden;
         opacity: 0;
     }
+
+  
     
 }
 
