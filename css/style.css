@@ -5704,17 +5704,7 @@ Main Header
 }
 
 
-.main-menu .navigation > li >  p::before{
-content: "Show more filter";
-}
 
-.main-menu .navigation > li >  p:hover::before{
-  content: "";
-  }
-
-.main-menu .navigation > li >  p:hover::after{
-  content: "Show less";
-}
 
 .main-menu .navigation > li.dropdown:hover > ul {
   opacity: 1;
@@ -5986,6 +5976,31 @@ content: "Show more filter";
 .main-header .menu-btn {
   position: relative;
   margin-left: 30px;
+}
+
+.drop-wrapper > li::before{
+  content: "Show more filter";
+  }
+  
+  .drop-wrapper li:hover::before{
+    content: "";
+    }
+  
+   .drop-wrapper li:hover::after{
+    content: "Show less";
+  }
+
+.drop-down{
+ display: none;
+}
+
+.drop-wrapper li{
+  cursor: pointer;
+}
+
+.drop-wrapper li:hover .drop-down {
+  display: block;
+
 }
 
 .main-header .menu-btn .icon {
@@ -10862,13 +10877,14 @@ width: 120px;
   .testimonial-section .con{
     gap: 4px;
   align-items: center;
-    
+  max-width: 300px;
+  min-height: 254px
     
   }
 
   .testimonial-section .outer-con{
     flex-direction: column;
-  
+   
   }
   
 }
