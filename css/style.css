@@ -5978,7 +5978,8 @@ Main Header
   margin-left: 30px;
 }
 
-.drop-wrapper > li::before{
+.drop-wrapper 
+ li::before{
   content: "Show more filter";
   }
   
@@ -5990,15 +5991,13 @@ Main Header
     content: "Show less";
   }
 
-.drop-down{
- display: none;
-}
+
 
 .drop-wrapper li{
   cursor: pointer;
 }
 
-.drop-wrapper li:hover .drop-down {
+.drop-wrapper li .drop-down {
   display: block;
 
 }
@@ -6469,6 +6468,12 @@ Job Categories
   border-radius: 10px;
   padding: 19px;
   transition: all 300ms ease;
+}
+
+@media (max-width: 768px) {
+  .category-block .inner-box{
+    padding: 9px;
+  }
 }
 
 .category-block .inner-box:hover {
