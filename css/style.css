@@ -10763,7 +10763,6 @@ Testimonial Section
   width: 34px;
   right: 28px;
   top: 25px;
-  background-image: url(../images/icons/quote-icon.png);
   content: "";
   z-index: 2;
 }
@@ -10846,21 +10845,30 @@ Testimonial Section
 .testimonial-section .con{
   width: 390px;
   height: 204px;
+  margin: 0 auto;
   justify-content: center;
+  align-items: center;
 }
+.testimonial-section .con img{
+width: 120px;
+}
+
+.testimonial-section .con > div img{
+  width: 50px;
+  height: 50px;
+  }
 
 @media (max-width: 768px) {
   .testimonial-section .con{
-    max-width: 300px;
-    min-height: 234px;
     gap: 4px;
-    margin: 0px 10px;
+  align-items: center;
     
     
   }
 
   .testimonial-section .outer-con{
     flex-direction: column;
+  
   }
   
 }
