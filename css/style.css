@@ -4720,8 +4720,8 @@ Main Footer
 
 .main-footer .logo img {
   display: block;
-   width: 186px;
-  height: 45.65px;
+   width: 196px;
+  height: 47.65px;
 }
 
 .main-footer .phone-num {
@@ -5497,6 +5497,8 @@ Main Header
   width: 186px;
   height: 45.65px;
 }
+
+
 
 .main-header .menu-box {
   position: static;
@@ -9338,8 +9340,8 @@ Preloader
 
 .preloader:after {
   position: absolute;
- height: 150px;
-  width: 150px;
+width: 100%;
+height: 100%;
 
   /* margin-left: -25px;
   margin-top: -25px; */
@@ -14414,6 +14416,7 @@ steps Section
 .steps-section .image-column .image img {
   display: block;
   width: 100%;
+  
 }
 
 .steps-section .image-column .count-employers {
