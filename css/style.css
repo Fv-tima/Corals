@@ -13515,6 +13515,10 @@ Listing Pagination
   text-align: center;
 }
 
+.google{
+  font-weight: 500; font-size: 30px;
+}
+
 @media (max-width: 767px) {
  
   .ls-pagination li.prev,
@@ -13523,6 +13527,10 @@ Listing Pagination
   }
   .ls-pagination li a {
     font-size: 12.39px;
+  }
+
+  .google{
+  font-size: 26px;
   }
 
   .ls-pagination li {
