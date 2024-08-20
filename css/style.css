@@ -5981,25 +5981,30 @@ Main Header
 }
 
 .drop-wrapper 
- li::before{
+ p::before{
   content: "Show more filter";
   }
   
-  .drop-wrapper li:hover::before{
+  .drop-wrapper p:hover::before{
     content: "";
     }
   
-   .drop-wrapper li:hover::after{
+   .drop-wrapper p:hover:after{
     content: "Show less";
   }
 
 
 
-.drop-wrapper li{
+.drop-wrapper p:hover{
   cursor: pointer;
+  color: red;
 }
 
-.drop-wrapper li .drop-down {
+.drop-wrapper  .job-search-form {
+  display: none;
+}
+
+.drop-wrapper:hover  .job-search-form {
   display: block;
 
 }
@@ -12200,6 +12205,7 @@ Candidates Section Two
 .candidate-block-four .theme-btn {
   display: block;
   width: 100%;
+
 }
 
 /***
