@@ -5996,14 +5996,7 @@ Main Header
   content: "Show less";
 }
 
-.drop-wrapper p:hover {
-  cursor: pointer;
-  color: red;
-}
 
-.drop-wrapper .job-search-form {
- 
-}
 
 .drop-wrapper:hover .job-search-form {
   display: block;
