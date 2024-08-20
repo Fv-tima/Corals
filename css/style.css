@@ -1540,7 +1540,7 @@ About Section Three
 
 @media (max-width: 768px) {
   .about-section-three .text-box h4 {
-    font-size: 26px ;
+    font-size: 26px;
   }
 }
 
@@ -1644,14 +1644,14 @@ Ads Section
   padding: 10px 0 10px;
 }
 
-.ads-section .btn{
+.ads-section .btn {
   padding: 18px 35px;
 }
 
 @media (max-width: 768px) {
-  .ads-section .btn{
+  .ads-section .btn {
     padding: 12px 20px;
-  } 
+  }
 }
 
 .advrtise-block {
@@ -2000,8 +2000,6 @@ Buttons Styles
   font-weight: 400;
   padding: 18px 35px 15px 35px;
 }
-
-
 
 .btn-style-two:hover {
   color: #202124;
@@ -4720,7 +4718,7 @@ Main Footer
 
 .main-footer .logo img {
   display: block;
-   width: 196px;
+  width: 196px;
   height: 47.65px;
 }
 
@@ -5493,12 +5491,10 @@ Main Header
   transition: all 300ms ease;
 }
 
-.main-header .logo img{
+.main-header .logo img {
   width: 186px;
   height: 45.65px;
 }
-
-
 
 .main-header .menu-box {
   position: static;
@@ -5704,9 +5700,6 @@ Main Header
   font-weight: 900;
   z-index: 5;
 }
-
-
-
 
 .main-menu .navigation > li.dropdown:hover > ul {
   opacity: 1;
@@ -5980,33 +5973,40 @@ Main Header
   margin-left: 30px;
 }
 
-.drop-wrapper 
- p::before{
+.drop-wrapper p::before {
   content: "Show more filter";
-  }
-  
-  .drop-wrapper p:hover::before{
-    content: "";
-    }
-  
-   .drop-wrapper p:hover:after{
-    content: "Show less";
-  }
+}
 
+.drop-wrapper p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #444444;
+  text-align: start;
+  margin: 10px 0px 10px 10px;
+  padding: 10px 4px 10px 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
+.drop-wrapper p:hover::before {
+  content: "";
+}
 
-.drop-wrapper p:hover{
+.drop-wrapper p:hover::after {
+  content: "Show less";
+}
+
+.drop-wrapper p:hover {
   cursor: pointer;
   color: red;
 }
 
-.drop-wrapper  .job-search-form {
-  display: none;
+.drop-wrapper .job-search-form {
+ 
 }
 
-.drop-wrapper:hover  .job-search-form {
+.drop-wrapper:hover .job-search-form {
   display: block;
-
 }
 
 .main-header .menu-btn .icon {
@@ -6397,10 +6397,10 @@ Mobile Header
 }
 
 @media (max-width: 768px) {
-  .btn-search{
+  .btn-search {
     border: 8px solid #ffffff;
   }
-  .get{
+  .get {
     flex-direction: column;
     row-gap: 20px;
   }
@@ -6478,7 +6478,7 @@ Job Categories
 }
 
 @media (max-width: 768px) {
-  .category-block .inner-box{
+  .category-block .inner-box {
     padding: 9px;
   }
 }
@@ -6495,7 +6495,6 @@ Job Categories
   min-height: 70px;
   flex-direction: column;
 }
-
 
 .category-block .icon {
   position: absolute;
@@ -6788,12 +6787,12 @@ Job Section
   min-height: 51px;
 }
 
-.job-block .content p, .job-block .content span{
+.job-block .content p,
+.job-block .content span {
   font-weight: 400;
   font-size: 14px;
   color: #20212480;
 }
-
 
 .job-block .company-logo {
   position: absolute;
@@ -6892,12 +6891,11 @@ Job Section
   color: #0b0198;
 }
 
-
 @media (max-width: 767px) {
-  .job-other-info li{
+  .job-other-info li {
     font-size: 10.25px;
   }
-  .d-1{
+  .d-1 {
     display: none;
   }
 }
@@ -7679,7 +7677,6 @@ Job Detail Section
 }
 
 @media (max-width: 767px) {
-  
 }
 
 .job-block-seven h4 a {
@@ -7804,13 +7801,10 @@ Job Detail Section
 }
 
 @media (max-width: 767px) {
-  .job-detail h4{
+  .job-detail h4 {
     font-size: 17.86px;
   }
-
 }
-
-
 
 .job-detail p {
   position: relative;
@@ -9139,7 +9133,6 @@ Page Title
   text-align: center;
   padding: 50px 0 40px;
   background: #f5f7fc;
-  
 }
 
 .page-title:before {
@@ -9345,8 +9338,8 @@ Preloader
 
 .preloader:after {
   position: absolute;
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 
   /* margin-left: -25px;
   margin-top: -25px; */
@@ -9919,12 +9912,16 @@ Section Title
   align-items: flex-end;
 }
 
-.sec-title, .sec-title-2, .sec-title-3 {
+.sec-title,
+.sec-title-2,
+.sec-title-3 {
   position: relative;
   margin-bottom: 50px;
 }
 
-.sec-title .sub-title, .sec-title-2, .sec-title-3 {
+.sec-title .sub-title,
+.sec-title-2,
+.sec-title-3 {
   position: relative;
   display: block;
   font-size: 18px;
@@ -9943,17 +9940,16 @@ Section Title
   font-weight: 500;
 }
 
-.sec-title-2 h2{
+.sec-title-2 h2 {
   position: relative;
   display: block;
-  font-size:46px;
+  font-size: 46px;
   line-height: 36px;
   color: #202124;
- 
-
 }
 
-.sec-title-3 h3, .sec-title-3 h4{
+.sec-title-3 h3,
+.sec-title-3 h4 {
   position: relative;
   display: block;
   font-size: 36px;
@@ -9961,7 +9957,9 @@ Section Title
   color: #363636;
 }
 
-.sec-title .text, .sec-title-2 .text, .sec-title-3 .text {
+.sec-title .text,
+.sec-title-2 .text,
+.sec-title-3 .text {
   position: relative;
   margin-top: 15px;
   font-size: 17px;
@@ -9976,7 +9974,6 @@ Section Title
 .sec-title-2.light h2 {
   color: #ffffff;
 }
-
 
 .sec-title-outer .link {
   position: relative;
@@ -10869,38 +10866,34 @@ Testimonial Section
   padding: 0;
 }
 
-.testimonial-section .con{
+.testimonial-section .con {
   width: 390px;
   height: 204px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
-.testimonial-section .con img{
-width: 120px;
+.testimonial-section .con img {
+  width: 120px;
 }
 
-.testimonial-section .con > div img{
+.testimonial-section .con > div img {
   width: 50px;
   height: 50px;
-  }
-
-@media (max-width: 768px) {
-  .testimonial-section .con{
-    gap: 4px;
-  align-items: center;
-  max-width: 300px;
-  min-height: 254px
-    
-  }
-
-  .testimonial-section .outer-con{
-    flex-direction: column;
-   
-  }
-  
 }
 
+@media (max-width: 768px) {
+  .testimonial-section .con {
+    gap: 4px;
+    align-items: center;
+    max-width: 300px;
+    min-height: 254px;
+  }
+
+  .testimonial-section .outer-con {
+    flex-direction: column;
+  }
+}
 
 /***
 
@@ -11515,8 +11508,8 @@ App Section
 }
 
 @media (max-width: 768px) {
-  .app-section .sec-title h2{
-    font-size: 26px ;
+  .app-section .sec-title h2 {
+    font-size: 26px;
   }
 }
 .app-section .download-btn {
@@ -11658,9 +11651,8 @@ Candidates Section
   margin-bottom: 5px;
 }
 
-
 @media (max-width: 767px) {
-  .candidate-block .name{
+  .candidate-block .name {
     font-size: 14.48px;
   }
 }
@@ -12083,7 +12075,6 @@ Candidates Section Two
   align-items: flex-start;
 }
 
-
 .candidate-block-four .thumb {
   position: relative;
   display: block;
@@ -12141,13 +12132,13 @@ Candidates Section Two
   margin: 0 15px 5px;
 }
 
-
 @media (max-width: 767px) {
-  .candidate-block-four .job-info li{
+  .candidate-block-four .job-info li {
     font-size: 12.87px;
-    margin: 0 ;
+    margin: 0;
   }
-  .candidate-block-four .job-info li .icon, .candidate-block-four .post-tags li{
+  .candidate-block-four .job-info li .icon,
+  .candidate-block-four .post-tags li {
     font-size: 11.26px;
   }
   .candidate-block-four .job-other-info {
@@ -12155,7 +12146,7 @@ Candidates Section Two
     width: 100%;
   }
   .candidate-block-four .inner-box {
-    padding:50px 5px;
+    padding: 50px 5px;
   }
 }
 
@@ -12205,7 +12196,6 @@ Candidates Section Two
 .candidate-block-four .theme-btn {
   display: block;
   width: 100%;
-
 }
 
 /***
@@ -12548,30 +12538,29 @@ Candidate Detail Section
   margin-bottom: 20px;
 }
 
-.display-1{
-visibility: hidden;
+.display-1 {
+  visibility: hidden;
 }
 
-.display-2{
+.display-2 {
   visibility: visible;
 }
-.sample{
+.sample {
   width: 65%;
 }
 
-
 @media (max-width: 767px) {
-  .display-2{
+  .display-2 {
     visibility: hidden;
-    }
-    
-    .display-1{
-      visibility: visible;
-      margin-bottom: 15px;
-    }
-    .sample{
-      width: 100%;
-    }
+  }
+
+  .display-1 {
+    visibility: visible;
+    margin-bottom: 15px;
+  }
+  .sample {
+    width: 100%;
+  }
 }
 
 /***
@@ -13533,14 +13522,14 @@ Listing Pagination
   text-align: center;
 }
 
-
 @media (max-width: 767px) {
-  .ls-pagination li.prev, .ls-pagination li .next{
+  .ls-pagination li.prev,
+  .ls-pagination li .next {
     font-size: 11.15px;
   }
-  .ls-pagination li a{
+  .ls-pagination li a {
     font-size: 12.39px;
-  } 
+  }
 }
 
 .ls-pagination li a {
@@ -14402,7 +14391,7 @@ steps Section
 ***/
 .steps-section {
   position: relative;
-  padding: 100px 0 50px ;
+  padding: 100px 0 50px;
 }
 .steps-section .image-column {
   position: relative;
@@ -14422,7 +14411,6 @@ steps Section
 .steps-section .image-column .image img {
   display: block;
   width: 100%;
-  
 }
 
 .steps-section .image-column .count-employers {
@@ -14473,11 +14461,10 @@ steps Section
 }
 
 @media (max-width: 768px) {
-  .steps-section .content-column .sec-title h2{
-    font-size: 26px ;
+  .steps-section .content-column .sec-title h2 {
+    font-size: 26px;
     line-height: 40px;
   }
-  
 }
 
 .steps-list {
@@ -16319,8 +16306,6 @@ Product Tabs
   line-height: 1.2 !important;
 }
 
-
-
 .sec-title.-type-2 .text {
   margin-top: 30px;
 }
@@ -16406,7 +16391,6 @@ Product Tabs
 .banner-section.-type-11 .title-box h3 {
   color: white;
 }
-
 
 .banner-section.-type-11 .title-box .text {
   color: white;
@@ -18883,10 +18867,9 @@ Product Tabs
   line-height: 1.2;
 }
 
-
 @media (max-width: 767px) {
   .banner-section-four .title-box h3 {
-  font-size: 24px;
+    font-size: 24px;
   }
 }
 
@@ -19865,7 +19848,7 @@ Banner Section Four
 ***/
 .banner-section-four {
   position: relative;
-  display: block;;
+  display: block;
   height: 100vh;
   min-height: 700px;
   text-align: center;
@@ -19878,7 +19861,7 @@ Banner Section Four
 }
 
 @media (max-width: 768px) {
-  .banner-section-four{
+  .banner-section-four {
     margin-top: 0px;
   }
 }
