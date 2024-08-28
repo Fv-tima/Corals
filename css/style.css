@@ -12417,13 +12417,15 @@ Candidate Detail Section
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .candidate-block-six .post-tags {
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .candidate-block-six .post-tags li {
