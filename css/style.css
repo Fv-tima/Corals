@@ -12416,7 +12416,7 @@ Candidate Detail Section
 .candidate-block-six .content {
   position: relative;
   display: flex;
-  justify-content: space-between;
+justify-content: space-between;
   align-items: start;
 }
 
@@ -12473,7 +12473,7 @@ Candidate Detail Section
   padding-left: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 .candidate-block-six .candidate-info li .icon {
