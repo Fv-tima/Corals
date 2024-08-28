@@ -12417,6 +12417,7 @@ Candidate Detail Section
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .candidate-block-six .post-tags {
