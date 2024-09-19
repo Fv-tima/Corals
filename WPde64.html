@@ -260,11 +260,14 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptMan
                                 <li><span class="icon flaticon-money"></span>N80,000
                                     - N90,000/ Monthly</li>
                                 <li><span class="icon flaticon-clock"></span>Member since 2/1/2024</li>
-                                <div class="btn-box display-1" >
+                                <!-- Remove this pls
+                                 <div class="btn-box display-1" >
                                     <button type="button" class="theme-btn btn-style-one" style="color: #202124; background: #01CD84; font-weight: 700; font-size: 15px;">Pay Now to Contact Lydia J.</button>
-                                </div>
+                                </div> -->
                             </ul>
 
+                            <!--
+                            And this as well
                             <div class="btn-box ">
                                 
                               
@@ -281,7 +284,21 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptMan
                             <div class="btn-box">
                                 <button type="button " class="theme-btn btn-style-one display-2" style="color: #202124; background: #01CD84;font-weight: 700; font-size: 15px;">Pay Now to Contact Lydia J.</button>
                             </div>
+                            </div> -->
+
+                            <!-- New changes -->
+                            <div  style="display: flex; flex-wrap: wrap; row-gap: 20px; justify-content: center;">
+                                <div class="btn-box">
+                                    <button type="button " class="theme-btn btn-style-one" style="color: #202124; background: #01CD84;font-weight: 700; font-size: 15px;">Pay Now to Contact Lydia J.</button>
+                                </div>
+                                <div class="btn-box ">
+                                    <button  type="button" class="theme-btn btn-style-one" data-toggle="modal"   data-target="#myModal" style="width: 85%; margin: 0 auto;">Click to Download Worker’s Full Docs/File</button>
+                                </div>
+                                <div class="btn-box">
+                                        <button type="button" class="theme-btn btn-style-one" data-toggle="modal" data-target="#exampleModal">View sample file</button>
+                                    </div>        
                             </div>
+                            <!-- End of new changes -->
 
                     </div>
                 </div>
